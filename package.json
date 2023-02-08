@@ -1,14 +1,16 @@
 {
   "name": "ernestoc14-homepage",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Ernesto's Website",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Ernesto Crespo<ernestocrespotbe@hotmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@chakra-ui/react": "^2.4.9",
     "@emotion/react": "^11.10.5",
