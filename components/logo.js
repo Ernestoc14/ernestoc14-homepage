@@ -17,18 +17,18 @@ padding: 10px;
 }
 `
 
-
-const Logo = ({Link, Image, Text, useColorModeValue}) =>{
-    const footPrintImg = `/images/footprint${useColorModeValue('','-dark').png}`
+const Logo = () =>{
+    const footPrintImg = `/images/contents/footprint${useColorModeValue('','-dark')}.png`
     return(
         <Link href="/">
-            <a>
-                <LogoBox>
-                    <Image src={footPrintImg} width={20} height={20} alt="logo"></Image>
-                    <Text color={useColorModeValue('gray.800','whiteAlpha.900')}
-                            fontFamily='M PLUS Rounded 1c' fontWeight="bold" ml={3}></Text>
-                </LogoBox>
-            </a>
+            <LogoBox>
+                <Image src={footPrintImg} width={20} height={20} alt="logo"></Image>
+                <Text color={useColorModeValue('gray.800','whiteAlpha.900')}
+                        fontFamily='M PLUS Rounded 1c' fontWeight="bold" ml={3}
+                >
+                    Ernesto Crespo
+                </Text>
+            </LogoBox>
         </Link>
     )
 }
