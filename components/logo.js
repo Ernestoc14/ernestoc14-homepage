@@ -18,7 +18,7 @@ padding: 10px;
 `
 
 const Logo = () =>{
-    const footPrintImg = `/images/contents/footprint${useColorModeValue('','-dark')}.png`
+    const footPrintImg = `/images/contents/footprint${useColorModeValue('-dark','')}.png`
     return(
         <Link href="/">
             <LogoBox>
