@@ -11,7 +11,7 @@ const LinkItem = ({ href, path, children}) =>{
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
     return(
         // <NextLink href={href}>
-            <Link 
+            <Link href={href}
                 p={2} 
                 bg={active ? 'glassTeal' : undefined} 
                 color={active ? '#202023' : inactiveColor}
@@ -30,7 +30,8 @@ const Navbar = props =>{
             as="nav" 
             w="100%" 
             bg={useColorModeValue('#ffffff40', '#20202380')}
-            styled={{backdropFilter: 'blur(10px)'}} 
+            styled={{backdropFilter: 'blur(10px)'}}   
+            // Fix the Blur of the navbar
             zIndex={1} 
             {...props}
         >
