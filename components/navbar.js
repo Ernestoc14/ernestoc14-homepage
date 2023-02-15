@@ -1,5 +1,4 @@
 import Logo from './logo'
-import NextLink from 'next/link'
 import { Container, Box, Link, Stack, Heading, Flex, Menu, MenuItem,
     MenuList, MenuButton, IconButton, useColorModeValue
 } from "@chakra-ui/react";
@@ -30,8 +29,7 @@ const Navbar = props =>{
             as="nav" 
             w="100%" 
             bg={useColorModeValue('#ffffff40', '#20202380')}
-            styled={{backdropFilter: 'blur(10px)'}}   
-            // Fix the Blur of the navbar
+            css={{backdropFilter: 'blur(10px)'}}   
             zIndex={1} 
             {...props}
         >
@@ -72,22 +70,21 @@ const Navbar = props =>{
                                 icon={<HamburgerIcon/>} 
                                 variant="outline" 
                                 aria-label="Options" 
-                            >
+                            />
                                 <MenuList>
-                                    <NextLink href="/" passHref>
-                                        <MenuItem as={Link}>About</MenuItem>
-                                    </NextLink>
-                                    <NextLink href="/works" passHref>
-                                        <MenuItem as={Link}>Works</MenuItem>
-                                    </NextLink>
-                                    <NextLink href="/posts" passHref>
-                                        <MenuItem as={Link}>Posts</MenuItem>
-                                    </NextLink>                      
-                                    <MenuItem as={Link} href="https://www.craftz.dog/">
+                                    <MenuItem href="/">
+                                        About
+                                    </MenuItem>
+                                    <MenuItem href="/works">
+                                        Works
+                                    </MenuItem>
+                                    <MenuItem href="/posts">
+                                        Posts
+                                    </MenuItem>
+                                    <MenuItem as={Link} href="https://github.com/Ernestoc14/ernestoc14-homepage">
                                         View Source
                                     </MenuItem>
                                 </MenuList>
-                            </MenuButton>
                         </Menu>
                     </Box>
                 </Box>
