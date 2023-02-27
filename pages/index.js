@@ -11,14 +11,14 @@ const Page = () =>{
         <Layout>
             <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500','whiteAlpha.200')} p={3} align= "center" mb={6}>
-                    Hello, I'm a Developer from Panama 
+                    Hello, I&apos;m a Developer from Panama 
                 </Box>
                 <Box display={{md: "flex"}}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-tittle">
                             Ernesto Crespo
                         </Heading>
-                        <p>Content Creator | Studend | Developer</p>
+                        <p>Content Creator | Student | Developer</p>
                     </Box>
                     <Box 
                     flexShrink={0} 

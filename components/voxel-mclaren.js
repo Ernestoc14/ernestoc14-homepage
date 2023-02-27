@@ -13,19 +13,6 @@ const VoxelMclaren = () => {
     const [loading, setLoading] = useState(true)
     const refRenderer = useRef()
     const MclarenGLB = '/mclaren.glb'
-    // const [renderer, setRenderer] = useState()
-    // const [_camera, setCamera] = useState()
-    // const [target] = useState(new THREE.Vector3(-0.5, 1.2, 0))
-    // const [initialCameraPosition] = useState(
-    //     new THREE.Vector3(
-    //         // Initial Positions
-    //         20 * Math.sin(0.2 * Math.PI),
-    //         10,
-    //         20 * Math.cos(0.2 * Math.PI)
-    //     )
-    //  )
-    // const [scene] = useState(new THREE.Scene())
-    // const [_controls, setControls] = useState()
 
     const handleWindowResize = useCallback(() => {
         const { current: renderer} = refRenderer
@@ -59,9 +46,10 @@ const VoxelMclaren = () => {
 
             const target = new THREE.Vector3(-0.5, 1.2, 0)
             const initialCameraPosition = new THREE.Vector3(
-                20 * Math.sin(0.2 * Math.PI),
+                // Initial Car's Position
+                1* Math.sin(0.2 * Math.PI),
                 10,
-                20 * Math.cos(0.2 * Math.PI)
+                100 * Math.cos(0.2 * Math.PI)
             )
 
             //640-> 240
@@ -77,17 +65,15 @@ const VoxelMclaren = () => {
             )
             camera.position.copy(initialCameraPosition)
             camera.lookAt(target)
-            // setCamera(camera)
-
+            
             const ambientLight = new THREE.AmbientLight(0xcccccc, 1)
             scene.add(ambientLight)
 
             const controls = new OrbitControls(camera, renderer.domElement)
             controls.autoRotate = true
             controls.target = target
-            // setControls( controls)
 
-            loadGLTFModel(scene, '/mclaren.glb', { //Aqui iria la var de MclarenGLB
+            loadGLTFModel(scene, MclarenGLB, {
                 recieveShadow: false,
                 castShadow: false
             }).then(() => {
