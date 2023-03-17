@@ -16,10 +16,12 @@ const Works = () => {
                 </Heading>
                 <SimpleGrid column={[1,1,2]} gap={6}>
                     <Section>
-                        <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-                            Descripcion de la app aqui
+                        <WorkGridItem id="inkdrop" title="Twitter Follow Card" thumbnail={thumbInkdrop}>
+                            {/* Link: https://react-vitejs-ga17bwxar-ernestoc14.vercel.app */}
+                            Twitter Who&apo s Follow using React and Vite.js.
                         </WorkGridItem>
                     </Section>
+                    <Divider/>
                     <Section>
                         <WorkGridItem id="walknote" title="Walknote" thumbnail={thumbWalknote}>
                             Descri 
