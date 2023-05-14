@@ -1,7 +1,8 @@
-import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
+import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { GridItem } from "../components/grid-item";
+import Paragraph from '../components/paragraph'
 
 import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
 
@@ -30,6 +31,10 @@ const Posts = () => (
                     />
                 </SimpleGrid>
             </Section>
+            <Divider/>
+            <Paragraph align="center">
+                All this post are from @ernie.codes on Instagram
+            </Paragraph>
         </Container>
     </Layout>
 )

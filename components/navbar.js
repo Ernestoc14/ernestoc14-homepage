@@ -1,7 +1,7 @@
 import Logo from './logo'
 import { Container, Box, Link, Stack, Heading, Flex, Menu, MenuItem,
-    MenuList, MenuButton, IconButton, useColorModeValue
-} from "@chakra-ui/react";
+            MenuList, MenuButton, IconButton, useColorModeValue
+        } from "@chakra-ui/react";
 import {HamburgerIcon} from '@chakra-ui/icons'
 import ThemeToggleButton from "./theme-toggle-button";
 
@@ -72,13 +72,13 @@ const Navbar = props =>{
                                 aria-label="Options" 
                             />
                                 <MenuList>
-                                    <MenuItem href="/">
+                                    <MenuItem as={Link} href="/">
                                         About
                                     </MenuItem>
-                                    <MenuItem href="/works">
+                                    <MenuItem as={Link} href="/works">
                                         Works
                                     </MenuItem>
-                                    <MenuItem href="/posts">
+                                    <MenuItem as={Link} href="/posts">
                                         Posts
                                     </MenuItem>
                                     <MenuItem as={Link} href="https://github.com/Ernestoc14/ernestoc14-homepage">
