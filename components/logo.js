@@ -26,7 +26,7 @@ const Logo = () =>{
                 <Text color={useColorModeValue('gray.800','whiteAlpha.900')}
                         fontFamily='M PLUS Rounded 1c' fontWeight="bold" ml={3}
                 >
-                    Ernesto Crespo
+                    Ernesto Cassino
                 </Text>
             </LogoBox>
         </Link>

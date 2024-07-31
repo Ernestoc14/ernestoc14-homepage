@@ -16,9 +16,9 @@ const Page = () =>{
                 <Box display={{md: "flex"}}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-tittle">
-                            Ernesto Crespo
+                            Ernesto Cassino
                         </Heading>
-                        <p>Content Creator | Student | Developer</p>
+                        <p>Content Creator | Software Engineer </p>
                     </Box>
                     <Box 
                     flexShrink={0} 
@@ -78,7 +78,7 @@ const Page = () =>{
                     </BioSection>
                     <BioSection>
                         <BioYear>2024</BioYear>
-                        Plan to finish Software Engineering at Technological University of Panama.
+                        Plan to finish Software Engineering at Technological University of Panama. (December)
                     </BioSection>
                 </Section>
             </Container>
