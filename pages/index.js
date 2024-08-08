@@ -44,7 +44,7 @@ const Page = () =>{
                         to upgrade his stack. Currently learning React and the enviroment of it 
                         in the Frontend Scene, looking constantly for challenges to test his 
                         skills. His top project is called {''}
-                        <Link href="/works/betatit">Betatit App</Link>
+                        <Link href="/works/betatit">Snapi SaaS.</Link>
                         .
                     </Paragraph>
                     <Box align="center" my={4}>
