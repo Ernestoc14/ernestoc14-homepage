@@ -16,14 +16,28 @@ const Works = () => {
                 </Heading>
                 <SimpleGrid column={[1,1,2]} gap={6}>
                     <Section>
-                        <WorkGridItem id="Followers" title="Twitter Follow Card" thumbnail={thumbInkdrop}>
+                        <WorkGridItem id="SnapiSaaS" title="Snapi SaaS Full Stack App" thumbnail={thumbInkdrop}>
                             {/* Link: https://react-vitejs-ga17bwxar-ernestoc14.vercel.app */}
-                            Made a Clone of Twitter Who Follows using React and Vite.js.
+                            Create a SaaS with Nextjs, TS, Clerk, Stripe API, MongoDB, Cloudinary API.
                         </WorkGridItem>
                     </Section>
                     <Divider/>
                     <Section>
-                        <WorkGridItem id="MERN" title="MERN Stack App" thumbnail={thumbWalknote}>
+                        <WorkGridItem id="MotocrossAWS" title="Motocross Website" thumbnail={thumbWalknote}>
+                            {/* Link: https://react-vitejs-ga17bwxar-ernestoc14.vercel.app */}
+                            This Website was build with Nextjs, TS, AWS DynamoDB, AWS Lambda Funtions.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem id="CarRental" title="Car Rental Website" thumbnail={thumbInkdrop}>
+                            {/* Link: https://react-vitejs-ga17bwxar-ernestoc14.vercel.app */}
+                            Build a Car Rental Website using Third Party API, Nextjs, TS and Tailwind CSS.
+                        </WorkGridItem>
+                    </Section>
+                    <Divider/>
+                    <Section>
+                        <WorkGridItem id="ReactNativeJobs" title="React Native Jobs" thumbnail={thumbWalknote}>
+                            {/* Link: https://react-vitejs-ga17bwxar-ernestoc14.vercel.app */}
                             This is my First Fullstack App builded using MERN.
                         </WorkGridItem>
                     </Section>

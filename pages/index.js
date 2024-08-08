@@ -39,11 +39,12 @@ const Page = () =>{
                         Work
                     </Heading>
                     <Paragraph>
-                        Ernesto is a freelance developer based in Panama City 
+                        Ernesto is a freelance Full Stack Developer based in Panama City 
                         with passion about building projects and learn new technologies 
-                        to upgrade his stack. Currently learning React and the enviroment of it 
-                        in the Frontend Scene, looking constantly for challenges to test his 
-                        skills. His top project is called {''}
+                        to upgrade his stack. Currently learning TypeScript, AWS and Fast API. 
+                        Looking constantly for challenges to test his 
+                        skills.<br />
+                        His top project is {''}
                         <Link href="/works/saas">Snapi SaaS.</Link>
                         .
                     </Paragraph>
@@ -70,14 +71,16 @@ const Page = () =>{
                     <BioSection>
                         <BioYear>2022</BioYear>
                         Get interested in web development, I decided to study frameworks and start working on projects for small business in town.
-                        Focused on React and JavaScript Stack, SQL Databases and a little bit of Backend side.
+                        Focused on React and JavaScript Stack, SQL Databases and a little bit of Backend side.<br />
+                        Works as a Freelancer and on Personal Projects to stay updated and keep learning. (Present) 
                     </BioSection>
                     <BioSection>
-                        <BioYear>2022</BioYear>
-                        Works as a Freelance. (Present)
+                        <BioYear>2023</BioYear>
+                        Part of a team who built a E-commerce platform to sell second brand products (React, Firebase and APIs)
                     </BioSection>
                     <BioSection>
                         <BioYear>2024</BioYear>
+                        Launch his first SaaS called Snapi. Land an Intership.<br />
                         Plan to finish Software Engineering at Technological University of Panama. (December)
                     </BioSection>
                 </Section>
