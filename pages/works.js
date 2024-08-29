@@ -22,7 +22,7 @@ const Works = () => {
                     </Section>
                     <Divider/>
                     <Section>
-                        <WorkGridItem id="MotocrossAWS" title="Motocross Website" thumbnail={thumbWalknote}>
+                        <WorkGridItem id="motocross-aws" title="Motocross Website" thumbnail={thumbWalknote}>
                             This Website was build with Nextjs, TS, AWS DynamoDB, AWS Lambda Funtions.
                         </WorkGridItem>
                     </Section>

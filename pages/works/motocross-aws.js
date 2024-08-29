@@ -4,32 +4,32 @@ import { Title, Meta, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
-const Motocross = () => {
+const Work = () => {
   return (
-    <Layout title="motocross-aws">
+    <Layout title="Motocross AWS">
       <Container>
         <Title>
-          Motocross Website w/AWS
-          <Badge>2024</Badge>
+          Motocross Website w/AWS <Badge>2024</Badge>
         </Title>
         <P>
-          Nextjs App for a final term project with AWS integration, including
-          AWS API Gateway, AWS Lambda Functions and AWS DynamoDB.
+        This motorcycle website offers a seamless experience for enthusiasts looking to reserve or purchase 
+        their next ride. Developed as a final project for Distributed Applications subject, 
+        the platform leverages AWS to ensure a robust and scalable environment. 
         </P>
         <List>
           <ListItem>
             <Meta>Motocross AWS</Meta>
-            <Link href="https://www.google.com">
+            <Link href="https://motocross-aws.vercel.app">
               Motocross Demo <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>Windows MacOS iOS Android</span>
+            <span>Windows MacOS </span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Nextjs, AWS Lambda Functions, AWS DynamoDB</span>
+            <span>Nextjs, AWS Lambda Functions, AWS API Gateway, AWS DynamoDB.</span>
           </ListItem>
         </List>
         <WorkImage src="/images/ernesto4.jpeg" alt='motocross-aws' />
@@ -38,4 +38,4 @@ const Motocross = () => {
   )
 }
 
-export default Motocross
+export default Work

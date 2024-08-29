@@ -12,26 +12,27 @@ const Work = () => {
           Snapi SaaS <Badge>2021</Badge>
         </Title>
         <P>
-          Snapi is a SaaS that allows users to create a REST API from a SQL
-          database. It is built with Node.js, Express, and PostgreSQL.
+          Snapi is a SaaS that allows users to transform their images with AI features powered by Cloudinary. 
+          Snapi provides intuitive tools that make image editing simple and efficient. Perfect for creatives and 
+          businesses alike, Snapi delivers professional-grade results in just a few clicks.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Snapi SaaS</Meta>
-            <Link href="https://www.google.com/">
-              https;//www.google.com/ <ExternalLinkIcon mx="2px" />
+            <Link href="https://snapi-phi.vercel.app">
+              Visit Snapi <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>Windows MacOS iOS </span>
+            <span>Windows MacOS </span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Node.js, Express, PostgreSQL</span>
+            <span>Nextjs, TypeScript, MongoDB, Stripe, Clerk Auth.</span>
           </ListItem>
         </List>
-        <WorkImage src="/images/ernesto2.jpeg" alt="Snapi" />
+        <WorkImage src="/images/ernesto2.jpeg" alt="snapi" />
       </Container>
     </Layout>
   )
