@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/works/snapi": [
+    "/works/motocross-aws": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/snapi.js"
+      "static/chunks/pages/works/motocross-aws.js"
     ]
   },
   "ampFirstPages": []
