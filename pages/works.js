@@ -16,25 +16,25 @@ const Works = () => {
                 </Heading>
                 <SimpleGrid column={[1,1,2]} gap={6}>
                     <Section>
-                        <WorkGridItem id="snapi" title="Snapi SaaS Full Stack App" thumbnail={thumbInkdrop}>
-                            Create a SaaS with Nextjs, TS, Clerk, Stripe API, MongoDB, Cloudinary API.
+                        <WorkGridItem id="snapi-saas" title="Snapi SaaS Full Stack App" thumbnail={thumbInkdrop}>
+                            Desc
                         </WorkGridItem>
                     </Section>
                     <Divider/>
                     <Section>
                         <WorkGridItem id="motocross-aws" title="Motocross Website" thumbnail={thumbWalknote}>
-                            This Website was build with Nextjs, TS, AWS DynamoDB, AWS Lambda Funtions.
+                            Desc
                         </WorkGridItem>
                     </Section>
                     <Section>
-                        <WorkGridItem id="CarRental" title="Car Rental Website" thumbnail={thumbInkdrop}>
-                            Build a Car Rental Website using Third Party API, Nextjs, TS and Tailwind CSS.
+                        <WorkGridItem id="car-rental" title="Car Rental Website" thumbnail={thumbInkdrop}>
+                            Desc
                         </WorkGridItem>
                     </Section>
                     <Divider/>
                     <Section>
-                        <WorkGridItem id="ReactNativeJobs" title="React Native Jobs" thumbnail={thumbWalknote}>
-                            This is my First Fullstack App builded using MERN.
+                        <WorkGridItem id="react-native-jobs" title="React Native Jobs" thumbnail={thumbWalknote}>
+                            Desc
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>

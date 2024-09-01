@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/works/motocross-aws": "pages/works/motocross-aws.js"
+  "/works/snapi-saas": "pages/works/snapi-saas.js",
+  "/404": "pages/404.js"
 }
